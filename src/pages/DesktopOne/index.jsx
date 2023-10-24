@@ -1,23 +1,11 @@
 import React from "react";
 
-import { useGoogleLogin } from "@react-oauth/google";
-
 import { Img, Line, Text } from "components";
 
 const DesktopOnePage = () => {
-  const googleSignIn = useGoogleLogin({
-    onSuccess: (res) => {
-      console.log("res", res);
-      alert("Login successfull. 😍");
-    },
-  });
-
   return (
     <>
-      <div
-        className="common-pointer bg-white-A700 font-abhayalibre h-[1024px] mx-auto relative w-full"
-        onClick={() => googleSignIn()}
-      >
+      <div className="bg-white-A700 font-abhayalibre h-[1024px] mx-auto relative w-full">
         <div className="absolute md:h-[1024px] h-[1026px] inset-[0] justify-center m-auto md:px-5 w-full">
           <div className="absolute md:h-[1020px] h-[1022px] inset-[0] justify-center m-auto w-full">
             <div className="md:h-[1020px] h-[1022px] m-auto w-full">
@@ -133,7 +121,7 @@ const DesktopOnePage = () => {
           <div className="absolute bg-orange-400_66 border border-orange-400_38 border-solid bottom-[24%] flex flex-col h-[58px] inset-x-[0] items-center justify-start mx-auto p-[11px] rounded-[50%] w-[58px]">
             <div
               className="bg-cover bg-no-repeat flex flex-col h-[34px] items-center justify-end p-[13px] w-[34px]"
-              style={{ backgroundImage: "url('images/img_group32.svg')" }}
+              style={{ backgroundImage: "url('images/img_group111.svg')" }}
             >
               <div className="bg-white-A700 h-[7px] rounded-[3px] w-[7px]"></div>
             </div>

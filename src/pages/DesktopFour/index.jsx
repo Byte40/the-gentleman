@@ -85,7 +85,7 @@ const DesktopFourPage = () => {
             </div>
             <div
               className="absolute bg-cover bg-no-repeat bottom-1/4 flex flex-col h-[34px] inset-x-[0] items-center justify-start mx-auto p-[13px] w-[34px]"
-              style={{ backgroundImage: "url('images/img_group32.svg')" }}
+              style={{ backgroundImage: "url('images/img_group111.svg')" }}
             >
               <div className="bg-white-A700 h-[7px] rounded-[3px] w-[7px]"></div>
             </div>

@@ -227,7 +227,7 @@ const DesktopThreePage = () => {
         <div className="absolute bg-orange-400_66 border border-orange-400_38 border-solid bottom-[24%] flex flex-col h-[58px] inset-x-[0] items-center justify-start mx-auto p-[11px] md:px-5 rounded-[50%] w-[58px]">
           <div
             className="bg-cover bg-no-repeat flex flex-col h-[34px] items-center justify-end p-[13px] w-[34px]"
-            style={{ backgroundImage: "url('images/img_group32.svg')" }}
+            style={{ backgroundImage: "url('images/img_group111.svg')" }}
           >
             <div className="bg-white-A700 h-[7px] rounded-[3px] w-[7px]"></div>
           </div>
